@@ -10,16 +10,16 @@ function App() {
       <Router>
         <div className="App">
           <ul className="App-header">
-            <li>
+            <li key='home'>
               <Link to="/">Home</Link>
             </li>
-            <li>
+            <li key='gallery'>
               <Link to="/gallery">Gallery</Link>
             </li>
-            <li>
+            <li key='staff'>
               <Link to="/staff">Staff</Link>
             </li>
-            <li>
+            <li key='about'>
               <Link to="/about">About Us</Link>
             </li>
           </ul>

@@ -9,7 +9,7 @@ const Home = () => {
     <br />
     <div className="contentContainer">
       <h1>Affiliates:</h1>
-      {affiliates.map((affiliate, idx) => <AffiliateCard affiliate={affiliate} idx={idx} />)}
+      {affiliates.map((affiliate, idx) => <AffiliateCard affiliate={affiliate} key={idx} />)}
     </div>
     </>
   )

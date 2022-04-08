@@ -3,7 +3,7 @@ const GalleryCard = (props) => {
 
   return (
     <>
-      <div className ="cardContainer">
+      <div className="cardContainer">
         <div className="cardBody">
           <h2>Tournament: {tournament.title}</h2>
           <h3>Organizer: {tournament.hostedBy}</h3>
