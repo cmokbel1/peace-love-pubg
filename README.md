@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Peace Love Pubg
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+this website is being built for the organization that intends to become the standard of mobile gaming for pubg mobile and new state mobile
 
 ## Available Scripts
 
