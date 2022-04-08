@@ -9,7 +9,7 @@ const StaffMembers = [
   },
   {
     name: 'Staff two',
-    title: 'President',
+    title: 'Vice President',
     dateJoined: 'October 15, 2020',
     reportsTo: '',
     responsibilities: '',
@@ -17,7 +17,7 @@ const StaffMembers = [
   },
   {
     name: 'Staff three',
-    title: 'President',
+    title: 'Web Manager',
     dateJoined: 'October 15, 2020',
     reportsTo: '',
     responsibilities: '',
@@ -25,7 +25,7 @@ const StaffMembers = [
   },
   {
     name: 'Staff four',
-    title: 'President',
+    title: 'Tournament Head',
     dateJoined: 'October 15, 2020',
     reportsTo: '',
     responsibilities: '',
@@ -33,7 +33,7 @@ const StaffMembers = [
   },
   {
     name: 'Staff five',
-    title: 'President',
+    title: 'Tournament Referee',
     dateJoined: 'October 15, 2020',
     reportsTo: '',
     responsibilities: '',
@@ -41,7 +41,7 @@ const StaffMembers = [
   },
   {
     name: 'Staff six',
-    title: 'President',
+    title: 'Human Resources',
     dateJoined: 'October 15, 2020',
     reportsTo: '',
     responsibilities: '',
@@ -49,7 +49,7 @@ const StaffMembers = [
   },
   {
     name: 'Staff seven',
-    title: 'President',
+    title: 'Technical Moderator',
     dateJoined: 'October 15, 2020',
     reportsTo: '',
     responsibilities: '',
