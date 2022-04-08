@@ -1,4 +1,6 @@
 import logo from '../images/Artboard 1 copy 3@4x.png'
+import { AffiliateCard } from '../components'
+import affiliates from '../affiliates.js'
 
 const Home = () => {
   return (
@@ -7,7 +9,7 @@ const Home = () => {
     <br />
     <div className="contentContainer">
       <h1>Affiliates:</h1>
-      <p>affiliate cards will populate here</p>
+      {affiliates.map((affiliate, idx) => <AffiliateCard affiliate={affiliate} idx={idx} />)}
     </div>
     </>
   )
