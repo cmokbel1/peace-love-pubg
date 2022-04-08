@@ -16,9 +16,10 @@
 .App ul {
   margin: 0;
   height: 75px;
-  text-align: center;
+
 }
 .App li {
+  margin: 5px;
   display: inline-block;
   list-style-type: none;
 }
