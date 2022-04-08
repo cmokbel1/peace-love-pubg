@@ -1,4 +1,4 @@
-const StaffMembers = [
+const staffMembers = [
   {
     name: 'Staff one',
     title: 'President',
@@ -57,4 +57,4 @@ const StaffMembers = [
   }
 ]
 
-export default StaffMembers;
+export default staffMembers;

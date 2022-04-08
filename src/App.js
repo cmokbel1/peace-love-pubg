@@ -1,5 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import logo from './images/Asset 5.png'
+import tournaments from './Tournaments'
+import staffMembers from './StaffMembers'
+import { Gallery, Home } from './pages'
 import './App.css';
 
 function App() {
@@ -22,14 +24,13 @@ function App() {
             </li>
           </ul>
           <Routes>
-            {/* <Route exact path='/' element={< Home />}></Route>
-              <Route exact path='/gallery' element={< Gallery />}></Route>
-              <Route exact path='/about' element={< About />}></Route>
+            <Route exact path='/' element={< Home />}></Route>
+              <Route exact path='/gallery' element={<Gallery tournaments={tournaments} />}></Route>
+              {/* <Route exact path='/about' element={< About />}></Route>
               <Route exact path='/staff' element={< Staff />}></Route> */}
           </Routes>
         </div>
       </Router>
-      <img src={logo} className="App-logo" alt="company logo" />
     </>
   );
 }
