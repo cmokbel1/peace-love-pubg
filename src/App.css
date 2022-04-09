@@ -33,3 +33,12 @@ nav .App li {
 }
 /*  END FRONT DESK */
 /* HOME PAGE */
+ 
+.affiliateContainer {
+  display: flex;
+  background-color: #87c54d;
+}
+
+.affiliateContainer  h1 {
+   text-align: center;
+}

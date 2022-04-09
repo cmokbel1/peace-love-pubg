@@ -5,12 +5,13 @@ import affiliates from '../affiliates.js'
 const Home = () => {
   return (
     <>
-    <img src={logo} className="App-logo" alt="company logo" />
-    <br />
-    <div className="affiliateContainer">
-      <h1>Affiliates:</h1>
-      {affiliates.map((affiliate, idx) => <AffiliateCard affiliate={affiliate} key={idx} />)}
-    </div>
+      <div className="contentContainer">
+        <img src={logo} className="App-logo" alt="company logo" />
+      </div>
+      <div className="affiliateContainer">
+        <h1>Affiliates:</h1>
+        {affiliates.map((affiliate, idx) => <AffiliateCard affiliate={affiliate} key={idx} />)}
+      </div>
     </>
   )
 

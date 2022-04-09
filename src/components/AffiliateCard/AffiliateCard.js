@@ -1,3 +1,5 @@
+import './affiliate.css'
+
 const AffiliateCard = (props) => {
   const { affiliate } = props
 
@@ -6,10 +8,9 @@ const AffiliateCard = (props) => {
       <div className="cardContainer">
         <img variant="bottom" src={affiliate.img} alt="affiliate logo" />
         <div className="cardBody">
-          <h2>{affiliate.name}</h2>
+          <span>{affiliate.name}</span>
         </div>
       </div>
-      <br />
     </>
   )
 }
