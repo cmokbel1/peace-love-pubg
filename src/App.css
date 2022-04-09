@@ -14,7 +14,7 @@
 
 
 .App-header {
-  background-color: #282c34;
+  background-color: #494949;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -36,9 +36,11 @@ nav .App li {
  
 .affiliateContainer {
   display: flex;
-  background-color: #87c54d;
+  background-color: #494949;
+
 }
 
 .affiliateContainer  h1 {
-   text-align: center;
+  display: block;
+  justify-content: center;
 }

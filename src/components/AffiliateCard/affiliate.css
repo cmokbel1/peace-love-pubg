@@ -1,8 +1,17 @@
 .cardContainer {
-  display: block;
+  display: inline-block;
 
 }
 
 .cardContainer img {
-  
+  border: 1px solid red;
+  background-size: contain;
+  border-radius: 50px;
+  border-style: groove;
+  margin: 10px;
+}
+
+.cardBody {
+  text-align: center;
+  font-weight: medium;
 }
