@@ -7,7 +7,7 @@ const Home = () => {
     <>
     <img src={logo} className="App-logo" alt="company logo" />
     <br />
-    <div className="contentContainer">
+    <div className="affiliateContainer">
       <h1>Affiliates:</h1>
       {affiliates.map((affiliate, idx) => <AffiliateCard affiliate={affiliate} key={idx} />)}
     </div>

@@ -1,3 +1,5 @@
+/*  FRONT DESK */
+
 * {
   margin: 0;
 }
@@ -16,14 +18,18 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-.App ul {
+
+/* NAV BAR */
+
+nav .App ul {
   margin: 0;
   height: 75px;
 
 }
-.App li {
+nav .App li {
   margin: 5px;
   display: inline-block;
   list-style-type: none;
 }
-
+/*  END FRONT DESK */
+/* HOME PAGE */

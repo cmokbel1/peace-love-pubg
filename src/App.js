@@ -7,6 +7,7 @@ import './App.css';
 function App() {
   return (
     <>
+    <nav>
       <Router>
         <div className="App">
           <ul className="App-header">
@@ -32,6 +33,7 @@ function App() {
           </Routes>
         </div>
       </Router>
+      </nav>
     </>
   );
 }
