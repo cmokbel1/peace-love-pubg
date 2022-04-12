@@ -7,6 +7,9 @@
   display:block;
 }
 
+.logo {
+  display:inline;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -20,6 +23,10 @@
 }
 
 /* NAV BAR */
+nav {
+  border-bottom:1px solid orange;
+  z-index: 1;
+}
 
 nav .App ul {
   margin: 0;
@@ -35,12 +42,12 @@ nav .App li {
 /* HOME PAGE */
  
 .affiliateContainer {
-  display: flex;
-  background-color: #494949;
-
+  background-color: #494949; 
+  text-align:center;
 }
 
-.affiliateContainer  h1 {
-  display: block;
+.affiliate {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }

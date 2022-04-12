@@ -10,6 +10,7 @@ function App() {
     <nav>
       <Router>
         <div className="App">
+          <div className="logo">PLP</div>
           <ul className="App-header">
             <li key='home'>
               <Link to="/">Home</Link>

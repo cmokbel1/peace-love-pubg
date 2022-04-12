@@ -10,7 +10,9 @@ const Home = () => {
       </div>
       <div className="affiliateContainer">
         <h1>Affiliates:</h1>
+        <div className='affiliate'>
         {affiliates.map((affiliate, idx) => <AffiliateCard affiliate={affiliate} key={idx} />)}
+        </div>
       </div>
     </>
   )
