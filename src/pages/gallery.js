@@ -4,7 +4,7 @@ const Gallery = (props) => {
   const { tournaments } = props;
   return (
     <>
-      <h1>Tournaments:</h1>
+      <h1 class="title">Tournaments:</h1>
     <div className="tournamentRow">
       {tournaments.map((tournament, idx) => <GalleryCard key={idx} tournament={tournament} />)}
     </div>
