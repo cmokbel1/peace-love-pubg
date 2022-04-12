@@ -6,9 +6,9 @@ const AffiliateCard = (props) => {
   return (
     <>
     <a href ={affiliate.link}>
-      <div className="cardContainer">
+      <div className="cardContainerAff">
         <img variant="bottom" src={affiliate.img} alt="affiliate logo" />
-        <div className="cardBody">
+        <div className="cardBodyAff">
           <span>{affiliate.name}</span>
         </div>
       </div>
