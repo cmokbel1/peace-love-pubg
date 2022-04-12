@@ -3,6 +3,7 @@
 * {
   margin: 0;
 }
+
 .App {
   display:block;
 }
@@ -23,17 +24,18 @@
 }
 
 /* NAV BAR */
-nav {
-  border-bottom:1px solid orange;
+.App nav {
+    border-bottom:1px solid orange;
   z-index: 1;
+  display: flexbox;
 }
 
-nav .App ul {
+.App nav ul {
   margin: 0;
   height: 75px;
 
 }
-nav .App li {
+.App nav li {
   margin: 5px;
   display: inline-block;
   list-style-type: none;

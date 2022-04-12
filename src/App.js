@@ -7,8 +7,7 @@ import './App.css';
 function App() {
   return (
     <>
-      <nav>
-        <Router>
+      <Router>
           <div className="App">
             <div className="logo">PLP</div>
             <nav>
@@ -35,8 +34,7 @@ function App() {
 
             </Routes>
           </div>
-        </Router>
-      </nav>
+      </Router>
     </>
   );
 }
