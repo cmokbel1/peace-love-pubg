@@ -1,4 +1,4 @@
-import largeLogo from '../images/Asset 1xxhdpi.png'
+import largeLogo from '../images/companyImages/Asset 1xxhdpi.png'
 
 const About = () => {
   return (

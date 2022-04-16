@@ -1,4 +1,4 @@
-import filler from './images/Asset 2@0.5x.png'
+import pubg from './images/pubg.png'
 
 const tournaments = [
   {
@@ -6,7 +6,7 @@ const tournaments = [
     dateHosted: 'October 15, 2020',
     hostedBy: 'North American Scrims',
     game: 'PUBG Mobile',
-    img: filler,
+    img: pubg,
     prize: '$1,000 USD',
     link: '/',
     discord: '/'
@@ -15,8 +15,8 @@ const tournaments = [
     title: 'Tournament Title 2',
     dateHosted: 'November 15, 2020',
     hostedBy: 'Peace Love PubG',
-    game: 'New State Mobile',
-    img: filler,
+    game: 'PUBG Mobile',
+    img: pubg,
     prize: '$500 USD',
     link: '/',
     discord: '/'
@@ -25,8 +25,8 @@ const tournaments = [
     title: 'Tournament Title 3',
     dateHosted: 'December 15, 2020',
     hostedBy: 'Organization/ Subsidiary Name',
-    game: 'Brawl Stars',
-    img: filler,
+    game: 'PUBG Mobile',
+    img: pubg,
     prize: '$650 USD',
     link: '/',
     discord: '/'
@@ -35,8 +35,8 @@ const tournaments = [
     title: 'Tournament Title 4',
     dateHosted: 'January 15, 2021',
     hostedBy: 'Organization/ Subsidiary Name',
-    game: 'Arena of Valor',
-    img: filler,
+    game: 'PUBG Mobile',
+    img: pubg,
     prize: '$10,000 USD',
     link: '/',
     discord: '/'
@@ -45,8 +45,8 @@ const tournaments = [
     title: 'Tournament Title 5',
     dateHosted: 'February 15, 2021',
     hostedBy: 'Organization/ Subsidiary Name',
-    game: 'League of Legends Wild Rift',
-    img: filler,
+    game: 'PUBG Mobile',
+    img: pubg,
     prize: '$300',
     link: '/',
     discord: '/'
@@ -55,8 +55,8 @@ const tournaments = [
     title: 'Tournament Title 6',
     dateHosted: 'March 15, 2021',
     hostedBy: 'Organization/ Subsidiary Name',
-    game: 'New State Mobile',
-    img: filler,
+    game: 'PUBG Mobile',
+    img: pubg,
     prize: '$1,250 USD',
     link: '/',
     discord: '/'
@@ -66,7 +66,7 @@ const tournaments = [
     dateHosted: 'April 15, 2021',
     hostedBy: 'Organization/ Subsidiary Name',
     game: 'PUBG Mobile',
-    img: filler,
+    img: pubg,
     prize: '$650 USD',
     link: '/',
     discord: '/'

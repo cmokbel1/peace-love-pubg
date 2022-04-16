@@ -1,4 +1,4 @@
-import logo from '../images/Artboard 1 copy 3@4x.png'
+import logo from '../images/companyImages/Artboard 1 copy 3@4x.png'
 
 const Home = () => {
   return (

@@ -1,4 +1,4 @@
-import filler from './images/Asset 2@0.5x.png'
+import filler from './images/companyImages/Asset 2@0.5x.png'
 
 const affiliates = [
   {

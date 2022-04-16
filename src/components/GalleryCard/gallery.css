@@ -4,7 +4,6 @@
   margin: 10px;
   background-color: whitesmoke;
    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
-  align-items: center;
   transition: all .2s ease-in-out;
 }
     .cardContainerGal:hover {
@@ -13,22 +12,22 @@
 
 .cardBodyGal {
   font-weight: medium;
-  display: block;
 }
 
 .cardBodyGal h3 {
   background-color: darkgray;
 }
 .sameLine {
-  justify-content: center;
-    display: flex;
+    border: 1px solid red;
+    
 }
 .linkButton {
-  height: 50px;
-  width: 50px;
-  border-radius: 50px;
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
   background-color:darkblue;
   color: whitesmoke;
+  display: inline-block;
 }
 
 .linkButton:hover {
@@ -38,6 +37,7 @@
  .discord {
   height: 50px;
   width: 50px;
+  display: inline-block;
 }
 .tourneyimg {
   background-size: cover;

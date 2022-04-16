@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import tournaments from './Tournaments'
 import staffMembers from './StaffMembers'
-import smallLogo from './images/Asset 2@0.5x.png'
+import smallLogo from './images/companyImages/Asset 2@0.5x.png'
 import { Gallery, Home, Staff, About } from './pages'
 import { AffiliateCard } from './components'
 import affiliates from './affiliates.js'
