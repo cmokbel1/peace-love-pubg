@@ -1,19 +1,20 @@
 .cardContainerGal {
   width: 15rem;
+  height: 25rem;
   text-align: center;
   margin: 10px;
   background-color: whitesmoke;
-  box-shadow: 5;
-  position: relative;
    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
   content: "";
+  border-radius:10px;
 }
 
 .cardBodyGal {
   font-weight: medium;
+  display: block;
 }
 
-.cardBodyGal h2 {
+.cardBodyGal h3 {
   background-color: darkgray;
 }
 
@@ -22,4 +23,9 @@
 }
 .cardBodyGal img {
 display: inline-block;
+}
+
+ .discord {
+  height: 50px;
+  width: 50px;
 }

@@ -6,6 +6,7 @@
 
 .App {
   display:block;
+ min-height: calc(100vh - 150px)
 }
 
 
@@ -66,7 +67,8 @@
       background-color: #494949; 
       text-align:center;
       color: whitesmoke;
-      height: 100%;
+      height: 150px;
+      box-shadow:0 0 30px 5px black;
     }
     .affilateContainer a {
        transition: all .2s ease-in-out;
@@ -81,6 +83,7 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+      
     }
     /* END AFFILIATIONS */
 /*  END FRONT DESK */
@@ -111,6 +114,7 @@ html {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 h1 .title {

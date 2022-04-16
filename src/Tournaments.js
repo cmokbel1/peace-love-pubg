@@ -1,10 +1,12 @@
+import filler from './images/Asset 2@0.5x.png'
+
 const tournaments = [
   {
     title: 'Tournament Title 1',
     dateHosted: 'October 15, 2020',
     hostedBy: 'North American Scrims',
     game: 'PUBG Mobile',
-    img: 'tournament/org image',
+    img: filler,
     prize: '$1,000 USD',
     link: 'website/challengermode link',
     discord: 'discord link'
@@ -14,7 +16,7 @@ const tournaments = [
     dateHosted: 'November 15, 2020',
     hostedBy: 'Peace Love PubG',
     game: 'New State Mobile',
-    img: 'tournament/org image',
+    img: filler,
     prize: '$500 USD',
     link: 'website/challengermode link',
     discord: 'discord link'
@@ -24,7 +26,7 @@ const tournaments = [
     dateHosted: 'December 15, 2020',
     hostedBy: 'Organization/ Subsidiary Name',
     game: 'Brawl Stars',
-    img: 'tournament/org image',
+    img: filler,
     prize: '$650 USD',
     link: 'website/challengermode link',
     discord: 'discord link'
@@ -34,7 +36,7 @@ const tournaments = [
     dateHosted: 'January 15, 2021',
     hostedBy: 'Organization/ Subsidiary Name',
     game: 'Arena of Valor',
-    img: 'tournament/org image',
+    img: filler,
     prize: '$10,000 USD',
     link: 'website/challengermode link',
     discord: 'discord link'
@@ -44,7 +46,7 @@ const tournaments = [
     dateHosted: 'February 15, 2021',
     hostedBy: 'Organization/ Subsidiary Name',
     game: 'League of Legends Wild Rift',
-    img: 'tournament/org image',
+    img: filler,
     prize: '$300',
     link: 'website/challengermode link',
     discord: 'discord link'
@@ -54,7 +56,7 @@ const tournaments = [
     dateHosted: 'March 15, 2021',
     hostedBy: 'Organization/ Subsidiary Name',
     game: 'New State Mobile',
-    img: 'tournament/org image',
+    img: filler,
     prize: '$1,250 USD',
     link: 'website/challengermode link',
     discord: 'discord link'
@@ -64,7 +66,7 @@ const tournaments = [
     dateHosted: 'April 15, 2021',
     hostedBy: 'Organization/ Subsidiary Name',
     game: 'PUBG Mobile',
-    img: 'tournament/org image',
+    img: filler,
     prize: '$650 USD',
     link: 'website/challengermode link',
     discord: 'discord link'
