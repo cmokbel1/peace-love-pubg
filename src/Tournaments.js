@@ -8,8 +8,8 @@ const tournaments = [
     game: 'PUBG Mobile',
     img: filler,
     prize: '$1,000 USD',
-    link: 'website/challengermode link',
-    discord: 'discord link'
+    link: '/',
+    discord: '/'
   },
   {
     title: 'Tournament Title 2',
@@ -18,8 +18,8 @@ const tournaments = [
     game: 'New State Mobile',
     img: filler,
     prize: '$500 USD',
-    link: 'website/challengermode link',
-    discord: 'discord link'
+    link: '/',
+    discord: '/'
   },
   {
     title: 'Tournament Title 3',
@@ -28,8 +28,8 @@ const tournaments = [
     game: 'Brawl Stars',
     img: filler,
     prize: '$650 USD',
-    link: 'website/challengermode link',
-    discord: 'discord link'
+    link: '/',
+    discord: '/'
   },
   {
     title: 'Tournament Title 4',
@@ -38,8 +38,8 @@ const tournaments = [
     game: 'Arena of Valor',
     img: filler,
     prize: '$10,000 USD',
-    link: 'website/challengermode link',
-    discord: 'discord link'
+    link: '/',
+    discord: '/'
   },
   {
     title: 'Tournament Title 5',
@@ -48,8 +48,8 @@ const tournaments = [
     game: 'League of Legends Wild Rift',
     img: filler,
     prize: '$300',
-    link: 'website/challengermode link',
-    discord: 'discord link'
+    link: '/',
+    discord: '/'
   },
   {
     title: 'Tournament Title 6',
@@ -58,8 +58,8 @@ const tournaments = [
     game: 'New State Mobile',
     img: filler,
     prize: '$1,250 USD',
-    link: 'website/challengermode link',
-    discord: 'discord link'
+    link: '/',
+    discord: '/'
   },
   {
     title: 'Tournament Title 7',
@@ -68,8 +68,8 @@ const tournaments = [
     game: 'PUBG Mobile',
     img: filler,
     prize: '$650 USD',
-    link: 'website/challengermode link',
-    discord: 'discord link'
+    link: '/',
+    discord: '/'
   }
 ]
 
