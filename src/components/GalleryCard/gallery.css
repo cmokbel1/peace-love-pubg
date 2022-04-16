@@ -20,12 +20,19 @@
   background-color: darkgray;
 }
 .sameLine {
-  align-items: center;
+  justify-content: center;
+    display: flex;
 }
 .linkButton {
   height: 50px;
   width: 50px;
   border-radius: 50px;
+  background-color:darkblue;
+  color: whitesmoke;
+}
+
+.linkButton:hover {
+  cursor:pointer;
 }
 
  .discord {
