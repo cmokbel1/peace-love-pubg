@@ -14,9 +14,10 @@ const GalleryCard = (props) => {
           <h4>Game: {tournament.game}</h4>
           <h5>Prize: {tournament.prize}</h5>
         </div>
-        <button href={tournament.link}>Link</button>
-        <a href={tournament.discord}><img src={discord} className="discord" alt="discord icon"/></a>
-        <img variant="bottom" src={tournament.img} alt="tournament logo" />
+        <button className="linkButton sameLine" href={tournament.link}>Site</button>
+        <a href={tournament.discord}><img src={discord} className="discord sameLine" alt="discord icon"/></a>
+        <br />
+        <img variant="bottom" className="tourneyimg" src={tournament.img} alt="tournament logo" />
       </div>
       <br />
     </>
