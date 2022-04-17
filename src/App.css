@@ -1,66 +1,56 @@
 /*  FRONT DESK */
 
 * {
-  margin: 0;
+  margin: 0 auto;
 }
 
-.App {
-  display:block;
- min-height: calc(100vh - 150px)
+.document {
+  min-height: calc(100vh - 150px);
 }
 
-
-.logo {
-  display:inline;
-}
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-
-.App-header {
-  background-color: #494949;
-  font-size: calc(10px + 2vmin);
+.logo img {
+  width: 50px;
+  height: 50px;
 }
 
 
     /* NAV BAR */
 
-    .App nav {
-      border-bottom:1px solid orange;
-      z-index: 1;
-      display: flexbox;
-      height: 75px;
+    .menu nav {
+      display:flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 100%;
+      background-color: #494949;
+      font-size: calc(10px + 2vmin);
+      
     }
 
-    .App .menu nav a {
-      display: block;
+    .menu nav a {
       height: 100%;
       transition: all .2s ease-in-out;
       text-decoration: none;
-       color: #60c010;
-       justify-content: space-between;
+      color: #60c010;
+      display: flex;
     }
 
     .menu nav a:hover {
      transform: scale(1.1);
      color: whitesmoke;
      background-color: #60c010;
-     width: 100%+10px;
     }
 
-    .App nav ul {
+    .menu nav ul {
       margin: 0;
       height: 100%;
-      justify-content:center;
     }
-    .App nav li {
+
+    .menu nav li {
+      gap: 5rem;
       display: inline-block;
       list-style-type: none;
-      height: 100%;
-      align-items: center;
     }
+
     /* END NAV BAR */
     /* AFFILIATIONS */
     .affiliateContainer {
@@ -81,14 +71,13 @@
     }
     .affiliate {
       display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      
     }
     /* END AFFILIATIONS */
 /*  END FRONT DESK */
 /* HOME PAGE */
-
+.App-logo {
+ width: 100%;
+}
 /* END HOME PAGE */
 /*  BODY  */
     

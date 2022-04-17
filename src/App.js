@@ -11,11 +11,11 @@ function App() {
   return (
     <>
       <Router>
-        <div className="App">
+        <div className="document">
           <div className="menu">
-            <div className="logo"><img src={smallLogo} alt="small logo" /></div>
             <nav>
-              <ul className="App-header">
+              <a className="logo" href='/'><img src={smallLogo} alt="small logo" /></a>
+              <ul>
                 <li key='home'>
                   <Link to="/">Home</Link>
                 </li>
