@@ -11,12 +11,14 @@
 .logo img {
   width: 50px;
   height: 50px;
+  float: left;
 }
 
 
     /* NAV BAR */
 
     .menu nav {
+      margin: 0;
       display:flex;
       align-items: center;
       justify-content: space-between;
@@ -31,24 +33,13 @@
       transition: all .2s ease-in-out;
       text-decoration: none;
       color: #60c010;
-      display: flex;
+      display: block;
     }
 
     .menu nav a:hover {
      transform: scale(1.1);
      color: whitesmoke;
      background-color: #60c010;
-    }
-
-    .menu nav ul {
-      margin: 0;
-      height: 100%;
-    }
-
-    .menu nav li {
-      gap: 5rem;
-      display: inline-block;
-      list-style-type: none;
     }
 
     /* END NAV BAR */

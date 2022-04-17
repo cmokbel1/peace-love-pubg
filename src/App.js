@@ -15,20 +15,10 @@ function App() {
           <div className="menu">
             <nav>
               <a className="logo" href='/'><img src={smallLogo} alt="small logo" /></a>
-              <ul>
-                <li key='home'>
-                  <Link to="/">Home</Link>
-                </li>
-                <li key='gallery'>
-                  <Link to="/gallery">Gallery</Link>
-                </li>
-                <li key='staff'>
-                  <Link to="/staff">Staff</Link>
-                </li>
-                <li key='about'>
-                  <Link to="/about">About Us</Link>
-                </li>
-              </ul>
+               <Link to="/">Home</Link>
+                <Link to="/gallery">Gallery</Link>
+                 <Link to="/staff">Staff</Link>
+                 <Link to="/about">About Us</Link>
             </nav>
           </div>
           <Routes>
