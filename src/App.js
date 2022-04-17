@@ -8,6 +8,14 @@ import affiliates from './affiliates.js'
 import './App.css';
 
 function App() {
+  //  building active link functionality
+  const clickChange = (event) => {
+    let active = document.querySelector('.active')
+    active.classList.remove('active')
+    event.target.classList.add('active')
+  }
+
+  
   return (
     <>
       <Router>
@@ -15,7 +23,7 @@ function App() {
           <div className="menu">
             <nav>
               <a className="logo" href='/'><img src={smallLogo} alt="small logo" /></a>
-               <Link to="/">Home</Link>
+               <Link to="/" className="active">Home</Link>
                 <Link to="/gallery">Gallery</Link>
                  <Link to="/staff">Staff</Link>
                  <Link to="/about">About Us</Link>
